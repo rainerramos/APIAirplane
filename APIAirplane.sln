@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0- API", "0- API", "{2AAF63
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADN.Domain", "ADN.Domain\ADN.Domain.csproj", "{DF8F7586-2D82-47C7-A50A-46D7B0A668E4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- Data", "2- Data", "{C6570FD8-8D05-468B-8A9A-991231A03B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADN.Data", "ADN.Data\ADN.Data.csproj", "{52988517-461C-4AC2-81CA-E5473E4F7F1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +23,17 @@ Global
 		{DF8F7586-2D82-47C7-A50A-46D7B0A668E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF8F7586-2D82-47C7-A50A-46D7B0A668E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF8F7586-2D82-47C7-A50A-46D7B0A668E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52988517-461C-4AC2-81CA-E5473E4F7F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52988517-461C-4AC2-81CA-E5473E4F7F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52988517-461C-4AC2-81CA-E5473E4F7F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52988517-461C-4AC2-81CA-E5473E4F7F1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DF8F7586-2D82-47C7-A50A-46D7B0A668E4} = {B61022C5-FFA6-4835-96C8-2E198B1BB4FC}
+		{52988517-461C-4AC2-81CA-E5473E4F7F1D} = {C6570FD8-8D05-468B-8A9A-991231A03B0E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {069F56E9-534A-42DB-9724-C97FF0DC02A6}
